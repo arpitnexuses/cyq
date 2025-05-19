@@ -26,6 +26,7 @@ export function InternalAuditorDashboardHeader() {
         </form>
       </div>
       <div className="flex items-center gap-4">
+        <div className="bg-green-600 text-white rounded-md px-2 py-1.5 text-sm font-medium">Internal Auditor</div>
         <DropdownMenu>
           <DropdownMenuTrigger asChild>
             <Button variant="outline" size="icon" className="relative">

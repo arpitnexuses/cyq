@@ -74,10 +74,6 @@ export function InternalAuditorSidebar() {
         <div className="px-2 py-4">
           <nav className="space-y-1">
             {/* Internal Auditor */}
-            <div className="bg-green-600 text-white rounded-md px-2 py-1.5 text-sm font-medium mb-2">
-              {collapsed ? "IA" : "Internal Auditor"}
-            </div>
-
             {/* Personal Section */}
             <Collapsible open={openSections.personal}>
               <CollapsibleTrigger
